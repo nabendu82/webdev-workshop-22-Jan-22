@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+body{
+    background: #F8FBD4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background: lightcoral;
+    padding: 20px;
+}
+
+h1 {
+    color: blue;
+}
+
+h3{
+    color: rgb(187, 16, 76);
+}
+
+/* div{
+    font-size: 10px;
+} */
+
+p{
+    color: hsl(123, 94%, 13%);
+    font-family: 'Mochiy Pop P One', Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    line-height: 1.6em;
+}
+
+#second-p{
+    color: hsl(320, 89%, 11%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.3em;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.button{
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: darkmagenta;
+    color: white;
+}
+
+.button:hover{
+    background-color:darkgoldenrod;
+    cursor: pointer;
+}
